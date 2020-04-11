@@ -37,9 +37,10 @@ int main(int argc, char* argv[]) {
 
 
 
-    help();
-    testmodel();    
-    runGame();
+//    help();
+//    testmodel();    
+//    runGame();
 
+    testPossible();
 
 }

@@ -4,6 +4,7 @@
 
 #ifndef MODEL_H
 #include <stdio.h>
+#include <vector>
 #define MODEL_H
 
 enum Colour {red,
@@ -20,12 +21,12 @@ typedef struct {
 typedef struct {
     int numberKnown;
     int unknownCards;
-    Card* knownCards;    
+    std::vector<Card> knownCards;    
 } Game; 
 
 typedef struct {
     int cards;
-    Card* hand;
+    std::vector<Card> hand;
 } Hand;
 
 int markov(void);

@@ -8,8 +8,8 @@
 #define MODEL_H
 
 enum Colour {red,
-    black,
     blue,
+    black,
     yellow
 };
 

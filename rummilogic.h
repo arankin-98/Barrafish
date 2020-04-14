@@ -3,6 +3,7 @@
 #ifndef LOGIC_H
 #include <stdio.h>
 #include <vector>
+#include <map>
 #define LOGIC_H
 
     std::vector<std::vector<Card>> possibleHands(Game*, Hand*);
@@ -16,5 +17,7 @@
     void testPossible();
 
     bool legalMove(Game*,std::vector<Card>);
+
+    bool combinationSet(std::multimap<int, int>);
 
 #endif
